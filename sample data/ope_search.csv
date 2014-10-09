@@ -1,0 +1,525 @@
+# search log
+# id> internal id
+# created_at> database insert timestamp
+# params> jSON of attributes
+	what> "what" keyword
+	where> "where" keyword
+	from> pagination of results (0 means first page)
+	size> number of results per page
+	source_facility> originator of request, always "op"
+	record_ids> if there are results from catalogue (not only phonebook), here are returned subject IDs
+	uir_type, uir_id, uir_name> if "where" field is recognized as an address, here are database IDs of that address
+
+id;created_at;params
+336956106;2014-10-01 00:02:05.0;{"what":"taxi","where":"Olomouc, okres Olomouc","from":"0","size":"3","source_facility":"op","record_ids":[59451,67475,761979],"uir_type":"city","uir_id":500496,"uir_name":"Olomouc"}
+336956137;2014-10-01 00:02:06.0;{"what":"taxi","where":"Olomouc, okres Olomouc","from":"0","size":"3","source_facility":"op"}
+336956338;2014-10-01 00:02:32.0;{"what":"taxi","where":"Praha","from":"0","size":"3","source_facility":"op"}
+336956303;2014-10-01 00:02:34.0;{"what":"taxi","where":"Praha","from":"0","size":"3","source_facility":"op","record_ids":[762071,66181,58685],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336956479;2014-10-01 00:05:56.0;{"what":"rozvoz pizza","where":"České Budějovice, okres České Budějovice","from":"0","size":"3","source_facility":"op","record_ids":[761737,84511,63282],"uir_type":"city","uir_id":544256,"uir_name":"České Budějovice"}
+336956600;2014-10-01 00:05:57.0;{"what":"rozvoz pizza","where":"České Budějovice, okres České Budějovice","from":"0","size":"3","source_facility":"op"}
+336956501;2014-10-01 00:05:58.0;{"what":"erotický privát","where":"Praha - Klánovice","from":"0","size":"3","source_facility":"op","record_ids":[64707,86112,184648],"uir_type":"city_part","uir_id":65447,"uir_name":"Klánovice"}
+336956426;2014-10-01 00:05:59.0;{"what":"erotický privát","where":"Praha - Klánovice","from":"0","size":"3","source_facility":"op"}
+336956510;2014-10-01 00:06:26.0;{"what":"rozvoz pizza","where":"České Budějovice, okres České Budějovice","from":"3","size":"5","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":544256,"uir_name":"České Budějovice"}
+336956717;2014-10-01 00:07:06.0;{"what":"odtahová služba Klubal","where":"","from":"0","size":"3","source_facility":"op","record_ids":[60759]}
+336956796;2014-10-01 00:07:07.0;{"what":"odtahová služba Klubal","where":"","from":"0","size":"3","source_facility":"op"}
+336956787;2014-10-01 00:07:43.0;{"what":"taxi","where":"teplice","from":"0","size":"3","source_facility":"op","record_ids":[81547,761811,762851],"uir_type":"city","uir_id":567442,"uir_name":"Teplice"}
+336956711;2014-10-01 00:07:44.0;{"what":"taxi","where":"teplice","from":"0","size":"3","source_facility":"op"}
+336956648;2014-10-01 00:07:44.0;{"what":"taxik","where":"Brno - Židenice","from":"0","size":"3","source_facility":"op"}
+336956799;2014-10-01 00:07:45.0;{"what":"taxik","where":"Brno - Židenice","from":"0","size":"3","source_facility":"op","record_ids":[80509,86259],"uir_type":"urban_district","uir_id":551058,"uir_name":"Brno-Židenice"}
+336956685;2014-10-01 00:07:48.0;{"what":"taxi","where":"Teplice, okres Teplice","from":"0","size":"3","source_facility":"op"}
+336956838;2014-10-01 00:07:49.0;{"what":"taxi","where":"Teplice, okres Teplice","from":"0","size":"3","source_facility":"op","record_ids":[81547,761811,762851],"uir_type":"city","uir_id":567442,"uir_name":"Teplice"}
+336956686;2014-10-01 00:08:01.0;{"what":"linka důvěry","where":"","from":"0","size":"3","source_facility":"op"}
+336956940;2014-10-01 00:08:02.0;{"what":"linka důvěry","where":"","from":"0","size":"3","source_facility":"op","record_ids":[81188,75567,53605]}
+336956672;2014-10-01 00:08:05.0;{"what":"linka důvěry zdarma","where":"","from":"0","size":"3","source_facility":"op"}
+336956655;2014-10-01 00:08:05.0;{"what":"linka důvěry zdarma","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336956755;2014-10-01 00:09:10.0;{"what":"restaurace černý orel","where":"Křinec","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":537411,"uir_name":"Křinec"}
+336956941;2014-10-01 00:09:11.0;{"what":"restaurace černý orel","where":"Křinec","from":"0","size":"3","source_facility":"op"}
+336956888;2014-10-01 00:10:20.0;{"what":"taxi","where":"ostrava","from":"0","size":"3","source_facility":"op","record_ids":[684257,60027,762781],"uir_type":"city","uir_id":554821,"uir_name":"Ostrava"}
+336956873;2014-10-01 00:10:21.0;{"what":"taxi","where":"ostrava","from":"0","size":"3","source_facility":"op"}
+336956964;2014-10-01 00:10:47.0;{"what":"sex po telefonu","where":"","from":"0","size":"3","source_facility":"op"}
+336956930;2014-10-01 00:10:48.0;{"what":"sex po telefonu","where":"","from":"0","size":"3","source_facility":"op","record_ids":[684135,66104,85179]}
+336956994;2014-10-01 00:12:36.0;{"what":"nemocnice","where":"plzeň lochotín","from":"0","size":"3","source_facility":"op","record_ids":[137001,640627],"uir_type":"street","uir_id":395005,"uir_name":"Lochotínská"}
+336957179;2014-10-01 00:12:37.0;{"what":"nemocnice","where":"plzeň lochotín","from":"0","size":"3","source_facility":"op"}
+336957027;2014-10-01 00:12:55.0;{"what":"nemocnice","where":"plzeň chotíkovská","from":"0","size":"3","source_facility":"op","record_ids":[640627,137001],"uir_type":"street","uir_id":749184,"uir_name":"Chotíkovská"}
+336957180;2014-10-01 00:12:56.0;{"what":"nemocnice","where":"plzeň chotíkovská","from":"0","size":"3","source_facility":"op"}
+336957119;2014-10-01 00:13:04.0;{"what":"modrý anděl","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op","record_ids":[66279,53577],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336957102;2014-10-01 00:13:04.0;{"what":"modrý anděl","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op"}
+336957205;2014-10-01 00:13:05.0;{"what":"taxik","where":"Hodonín, okres Hodonín","from":"0","size":"3","source_facility":"op"}
+336957087;2014-10-01 00:13:06.0;{"what":"taxik","where":"Hodonín, okres Hodonín","from":"0","size":"3","source_facility":"op","record_ids":[762203,62360,762247],"uir_type":"city","uir_id":586021,"uir_name":"Hodonín"}
+336957061;2014-10-01 00:13:19.0;{"what":"nonstop oblečení","where":"Praha","from":"0","size":"3","source_facility":"op"}
+336957105;2014-10-01 00:13:21.0;{"what":"nonstop oblečení","where":"Praha","from":"0","size":"3","source_facility":"op","record_ids":[49687],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336957034;2014-10-01 00:13:34.0;{"what":"tesco nonstop","where":"Praha","from":"0","size":"3","source_facility":"op"}
+336957015;2014-10-01 00:13:36.0;{"what":"tesco nonstop","where":"Praha","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336957209;2014-10-01 00:15:24.0;{"what":"komerční banka","where":"","from":"0","size":"3","source_facility":"op","record_ids":[81961,463925,463890]}
+336957170;2014-10-01 00:15:25.0;{"what":"komerční banka","where":"","from":"0","size":"3","source_facility":"op"}
+336957153;2014-10-01 00:16:42.0;{"what":"privát","where":"Blansko, okres Blansko","from":"0","size":"3","source_facility":"op"}
+336957190;2014-10-01 00:16:43.0;{"what":"privát","where":"Blansko, okres Blansko","from":"0","size":"3","source_facility":"op","record_ids":[66121,482297],"uir_type":"city","uir_id":581283,"uir_name":"Blansko"}
+336957427;2014-10-01 00:17:45.0;{"what":"privát","where":"brno","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":582786,"uir_name":"Brno"}
+336957321;2014-10-01 00:17:46.0;{"what":"privát","where":"brno","from":"0","size":"3","source_facility":"op"}
+336957436;2014-10-01 00:18:35.0;{"what":"tick tack taxi","where":"Praha","from":"0","size":"3","source_facility":"op","record_ids":[762071],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336957265;2014-10-01 00:18:35.0;{"what":"tick tack taxi","where":"Praha","from":"0","size":"3","source_facility":"op"}
+336957445;2014-10-01 00:21:18.0;{"what":"taxi","where":"Ústí nad Labem, okres Ústí nad Labem","from":"0","size":"3","source_facility":"op"}
+336957371;2014-10-01 00:21:19.0;{"what":"taxi","where":"Ústí nad Labem, okres Ústí nad Labem","from":"0","size":"3","source_facility":"op","record_ids":[68406,85506,58585],"uir_type":"city","uir_id":554804,"uir_name":"Ústí nad Labem"}
+336957597;2014-10-01 00:21:43.0;{"what":"taxi","where":"brno","from":"0","size":"3","source_facility":"op"}
+336957569;2014-10-01 00:21:44.0;{"what":"taxi","where":"brno","from":"0","size":"3","source_facility":"op","record_ids":[744013,80509,68244],"uir_type":"city","uir_id":582786,"uir_name":"Brno"}
+336957607;2014-10-01 00:23:05.0;{"what":"elektrikář pohotovost","where":"trutnov","from":"0","size":"3","source_facility":"op"}
+336957466;2014-10-01 00:23:05.0;{"what":"elektrikář pohotovost","where":"trutnov","from":"0","size":"3","source_facility":"op","record_ids":[761119],"uir_type":"city","uir_id":579025,"uir_name":"Trutnov"}
+336957649;2014-10-01 00:23:12.0;{"what":"elektrikář pohotovost","where":"Turnov, okres Semily","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":577626,"uir_name":"Turnov"}
+336957511;2014-10-01 00:23:13.0;{"what":"elektrikář pohotovost","where":"Turnov, okres Semily","from":"0","size":"3","source_facility":"op"}
+336957683;2014-10-01 00:23:14.0;{"what":"nejlevnější taxi","where":"Praha","from":"0","size":"3","source_facility":"op"}
+336957610;2014-10-01 00:23:15.0;{"what":"nejlevnější taxi","where":"Praha","from":"0","size":"3","source_facility":"op","record_ids":[80681,84977],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336957684;2014-10-01 00:23:49.0;{"what":"taxi","where":"Praha","from":"0","size":"3","source_facility":"op"}
+336957574;2014-10-01 00:23:51.0;{"what":"taxi","where":"Praha","from":"0","size":"3","source_facility":"op","record_ids":[66181,762071,58685],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336957611;2014-10-01 00:25:15.0;{"what":"taxi","where":"Železná Ruda, okres Klatovy","from":"0","size":"3","source_facility":"op","record_ids":[618935,463994],"uir_type":"city","uir_id":557528,"uir_name":"Železná Ruda"}
+336957736;2014-10-01 00:25:16.0;{"what":"taxi","where":"Železná Ruda, okres Klatovy","from":"0","size":"3","source_facility":"op"}
+336957758;2014-10-01 00:26:11.0;{"what":"taxi jesenice","where":"Jesenice, okres Praha-západ","from":"0","size":"3","source_facility":"op"}
+336957724;2014-10-01 00:26:12.0;{"what":"taxi jesenice","where":"Jesenice, okres Praha-západ","from":"0","size":"3","source_facility":"op","record_ids":[464683],"uir_type":"city","uir_id":539325,"uir_name":"Jesenice"}
+336957694;2014-10-01 00:26:49.0;{"what":"autopůjčovna nonstop","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op"}
+336957745;2014-10-01 00:26:51.0;{"what":"autopůjčovna nonstop","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op","record_ids":[65352,67131,86373],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336957879;2014-10-01 00:27:08.0;{"what":"autopůjčovna nonstop","where":"Praha, Hlavní město Praha","from":"3","size":"5","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336957773;2014-10-01 00:28:48.0;{"what":"blokace česká spořitelna","where":"","from":"0","size":"3","source_facility":"op"}
+336957735;2014-10-01 00:28:49.0;{"what":"blokace česká spořitelna","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336957780;2014-10-01 00:29:19.0;{"what":"elektrikář","where":"Turnov, okres Semily","from":"0","size":"3","source_facility":"op"}
+336957956;2014-10-01 00:29:20.0;{"what":"elektrikář","where":"Turnov, okres Semily","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":577626,"uir_name":"Turnov"}
+336957781;2014-10-01 00:29:34.0;{"what":"zámečník","where":"Kolín","from":"0","size":"3","source_facility":"op","record_ids":[84840,66620,72370],"uir_type":"city","uir_id":533165,"uir_name":"Kolín"}
+336958001;2014-10-01 00:29:35.0;{"what":"zámečník","where":"Kolín","from":"0","size":"3","source_facility":"op"}
+336957978;2014-10-01 00:31:55.0;{"what":"privát","where":"prostějov","from":"0","size":"3","source_facility":"op"}
+336957868;2014-10-01 00:31:56.0;{"what":"privát","where":"prostějov","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":589250,"uir_name":"Prostějov"}
+336958019;2014-10-01 00:32:23.0;{"what":"ubytovna","where":"prostějov","from":"0","size":"3","source_facility":"op"}
+336958008;2014-10-01 00:32:24.0;{"what":"ubytovna","where":"prostějov","from":"0","size":"3","source_facility":"op","record_ids":[65661,434785,478719],"uir_type":"city","uir_id":589250,"uir_name":"Prostějov"}
+336957913;2014-10-01 00:32:28.0;{"what":"linka důvěry","where":"","from":"0","size":"3","source_facility":"op"}
+336957965;2014-10-01 00:32:29.0;{"what":"linka důvěry","where":"","from":"0","size":"3","source_facility":"op","record_ids":[81188,75567,53605]}
+336957987;2014-10-01 00:32:41.0;{"what":"linka důvěry zdarma","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336958009;2014-10-01 00:32:42.0;{"what":"linka důvěry zdarma","where":"","from":"0","size":"3","source_facility":"op"}
+336957953;2014-10-01 00:33:00.0;{"what":"linka důvěry","where":"","from":"0","size":"3","source_facility":"op"}
+336958037;2014-10-01 00:33:01.0;{"what":"linka důvěry","where":"","from":"0","size":"3","source_facility":"op","record_ids":[81188,75567,53605]}
+336958056;2014-10-01 00:33:35.0;{"what":"asistenční služba UAMK","where":"","from":"0","size":"3","source_facility":"op"}
+336957969;2014-10-01 00:33:36.0;{"what":"asistenční služba UAMK","where":"","from":"0","size":"3","source_facility":"op","record_ids":[82462,83250,69689]}
+336958062;2014-10-01 00:34:45.0;{"what":"taxi","where":"Ústí nad Labem, okres Ústí nad Labem","from":"0","size":"3","source_facility":"op","record_ids":[68406,85506,58585],"uir_type":"city","uir_id":554804,"uir_name":"Ústí nad Labem"}
+336958159;2014-10-01 00:34:46.0;{"what":"taxi","where":"Ústí nad Labem, okres Ústí nad Labem","from":"0","size":"3","source_facility":"op"}
+336958098;2014-10-01 00:34:54.0;{"what":"taxi dva","where":"Ústí nad Labem, okres Ústí nad Labem","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554804,"uir_name":"Ústí nad Labem"}
+336958046;2014-10-01 00:34:55.0;{"what":"taxi dva","where":"Ústí nad Labem, okres Ústí nad Labem","from":"0","size":"3","source_facility":"op"}
+336958082;2014-10-01 00:34:59.0;{"what":"taxi pam pamdva","where":"Ústí nad Labem, okres Ústí nad Labem","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554804,"uir_name":"Ústí nad Labem"}
+336958143;2014-10-01 00:35:00.0;{"what":"taxi pam pamdva","where":"Ústí nad Labem, okres Ústí nad Labem","from":"0","size":"3","source_facility":"op"}
+336958034;2014-10-01 00:35:19.0;{"what":"taxi","where":"Praha","from":"0","size":"3","source_facility":"op"}
+336958177;2014-10-01 00:35:22.0;{"what":"taxi","where":"Praha","from":"0","size":"3","source_facility":"op","record_ids":[762071,66181,58685],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336958035;2014-10-01 00:35:23.0;{"what":"taxi","where":"Ústí nad Labem, okres Ústí nad Labem","from":"0","size":"3","source_facility":"op"}
+336958178;2014-10-01 00:35:24.0;{"what":"taxi","where":"Ústí nad Labem, okres Ústí nad Labem","from":"0","size":"3","source_facility":"op","record_ids":[68406,85506,58585],"uir_type":"city","uir_id":554804,"uir_name":"Ústí nad Labem"}
+336958099;2014-10-01 00:35:32.0;{"what":"toxikologické oddělení","where":"Praha","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336958181;2014-10-01 00:35:33.0;{"what":"toxikologické oddělení","where":"Praha","from":"0","size":"3","source_facility":"op"}
+336958086;2014-10-01 00:36:32.0;{"what":"pojmanka","where":"prostějov","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":589250,"uir_name":"Prostějov"}
+336958168;2014-10-01 00:36:33.0;{"what":"pojmanka","where":"prostějov","from":"0","size":"3","source_facility":"op"}
+336958238;2014-10-01 00:36:57.0;{"what":"ubytovna","where":"Vrahovická, Prostějov, okres Prostějov","from":"0","size":"3","source_facility":"op"}
+336958154;2014-10-01 00:36:58.0;{"what":"ubytovna","where":"Vrahovická, Prostějov, okres Prostějov","from":"0","size":"3","source_facility":"op","record_ids":[65661,434785,490319],"uir_type":"street","uir_id":516554,"uir_name":"Vrahovická"}
+336958239;2014-10-01 00:38:25.0;{"what":"omv","where":"Brno","from":"0","size":"3","source_facility":"op"}
+336958597;2014-10-01 00:38:26.0;{"what":"omv","where":"Brno","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":582786,"uir_name":"Brno"}
+336958518;2014-10-01 00:38:32.0;{"what":"omv","where":"Brno Porgasova","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336958206;2014-10-01 00:38:32.0;{"what":"omv","where":"Brno Porgasova","from":"0","size":"3","source_facility":"op"}
+336958519;2014-10-01 00:38:34.0;{"what":"taxi","where":"Jičín, okres Jičín","from":"0","size":"3","source_facility":"op","record_ids":[84997,49374,72804],"uir_type":"city","uir_id":572659,"uir_name":"Jičín"}
+336958598;2014-10-01 00:38:35.0;{"what":"taxi","where":"Jičín, okres Jičín","from":"0","size":"3","source_facility":"op"}
+336958302;2014-10-01 00:38:46.0;{"what":"omv","where":"Brno Porgesova","from":"0","size":"3","source_facility":"op"}
+336958599;2014-10-01 00:38:47.0;{"what":"omv","where":"Brno Porgesova","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"street","uir_id":725005,"uir_name":"Porgesova"}
+336958520;2014-10-01 00:38:54.0;{"what":"rozvoz","where":"praha","from":"0","size":"3","source_facility":"op"}
+336958600;2014-10-01 00:38:56.0;{"what":"rozvoz","where":"praha","from":"0","size":"3","source_facility":"op","record_ids":[85120,86439,66279],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336958601;2014-10-01 00:39:00.0;{"what":"rozvoz jídla","where":"praha","from":"0","size":"3","source_facility":"op"}
+336958521;2014-10-01 00:39:00.0;{"what":"rozvoz jídla","where":"praha","from":"0","size":"3","source_facility":"op","record_ids":[66279,72918,58464],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336958303;2014-10-01 00:39:05.0;{"what":"pizza rozvoz","where":"praha","from":"0","size":"3","source_facility":"op"}
+336958193;2014-10-01 00:39:08.0;{"what":"pizza rozvoz","where":"praha","from":"0","size":"3","source_facility":"op","record_ids":[763009,58464,762405],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336958248;2014-10-01 00:39:45.0;{"what":"sos drink","where":"praha ","from":"0","size":"3","source_facility":"op"}
+336958262;2014-10-01 00:39:47.0;{"what":"sos drink","where":"praha ","from":"0","size":"3","source_facility":"op","record_ids":[66279,684083,58685],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336958235;2014-10-01 00:39:52.0;{"what":"sos drink","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op","record_ids":[66279,684083,58685],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336958318;2014-10-01 00:39:53.0;{"what":"sos drink","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op"}
+336958313;2014-10-01 00:40:56.0;{"what":"taxislužba","where":"Ústí nad Labem, okres Ústí nad Labem","from":"0","size":"3","source_facility":"op"}
+336958340;2014-10-01 00:40:57.0;{"what":"taxislužba","where":"Ústí nad Labem, okres Ústí nad Labem","from":"0","size":"3","source_facility":"op","record_ids":[85506,68406,310993],"uir_type":"city","uir_id":554804,"uir_name":"Ústí nad Labem"}
+336958526;2014-10-01 00:41:57.0;{"what":"taxi","where":"Praha","from":"0","size":"3","source_facility":"op","record_ids":[66181,762071,58685],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336958378;2014-10-01 00:41:58.0;{"what":"taxi","where":"Praha","from":"0","size":"3","source_facility":"op"}
+336958480;2014-10-01 00:42:43.0;{"what":"taxi","where":"brno","from":"0","size":"3","source_facility":"op","record_ids":[744013,80509,81956],"uir_type":"city","uir_id":582786,"uir_name":"Brno"}
+336958604;2014-10-01 00:42:44.0;{"what":"taxi","where":"brno","from":"0","size":"3","source_facility":"op"}
+336958420;2014-10-01 00:44:06.0;{"what":"nemocnice pohotovost","where":"Strakonice, okres Strakonice","from":"0","size":"3","source_facility":"op"}
+336958606;2014-10-01 00:44:07.0;{"what":"nemocnice pohotovost","where":"Strakonice, okres Strakonice","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":550787,"uir_name":"Strakonice"}
+336958503;2014-10-01 00:46:05.0;{"what":"taxi","where":"přerov","from":"0","size":"3","source_facility":"op"}
+336958546;2014-10-01 00:46:06.0;{"what":"taxi","where":"přerov","from":"0","size":"3","source_facility":"op","record_ids":[57325,762337,363200],"uir_type":"city","uir_id":511382,"uir_name":"Přerov"}
+336958531;2014-10-01 00:46:42.0;{"what":"zastavárna ","where":"Sokolov, okres Sokolov","from":"0","size":"3","source_facility":"op"}
+336958572;2014-10-01 00:46:44.0;{"what":"zastavárna ","where":"Sokolov, okres Sokolov","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":560286,"uir_name":"Sokolov"}
+336958669;2014-10-01 00:47:23.0;{"what":"rozvoz jídla","where":"Kladno, okres Kladno","from":"0","size":"3","source_facility":"op"}
+336958619;2014-10-01 00:47:23.0;{"what":"rozvoz jídla","where":"Kladno, okres Kladno","from":"0","size":"3","source_facility":"op","record_ids":[77019],"uir_type":"city","uir_id":532053,"uir_name":"Kladno"}
+336958513;2014-10-01 00:47:27.0;{"what":"rozvoz pizzy","where":"Kladno, okres Kladno","from":"0","size":"3","source_facility":"op","record_ids":[54049,77019],"uir_type":"city","uir_id":532053,"uir_name":"Kladno"}
+336958670;2014-10-01 00:47:28.0;{"what":"rozvoz pizzy","where":"Kladno, okres Kladno","from":"0","size":"3","source_facility":"op"}
+336958709;2014-10-01 00:48:00.0;{"what":"rozvoz alkoholu","where":"plzeň","from":"0","size":"3","source_facility":"op"}
+336958575;2014-10-01 00:48:02.0;{"what":"rozvoz alkoholu","where":"plzeň","from":"0","size":"3","source_facility":"op","record_ids":[762959,145320,226649],"uir_type":"city","uir_id":554791,"uir_name":"Plzeň"}
+336958741;2014-10-01 00:48:48.0;{"what":"bar u tonyho","where":"Sokolov, okres Sokolov","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":560286,"uir_name":"Sokolov"}
+336958615;2014-10-01 00:48:49.0;{"what":"bar u tonyho","where":"Sokolov, okres Sokolov","from":"0","size":"3","source_facility":"op"}
+336958653;2014-10-01 00:49:29.0;{"what":"taxi","where":"přerov","from":"0","size":"3","source_facility":"op"}
+336958635;2014-10-01 00:49:30.0;{"what":"taxi","where":"přerov","from":"0","size":"3","source_facility":"op","record_ids":[57325,762337,363200],"uir_type":"city","uir_id":511382,"uir_name":"Přerov"}
+336958710;2014-10-01 00:49:33.0;{"what":"taxi","where":"plzeň","from":"0","size":"3","source_facility":"op"}
+336958816;2014-10-01 00:49:35.0;{"what":"taxi","where":"plzeň","from":"0","size":"3","source_facility":"op","record_ids":[63044,73147,67067],"uir_type":"city","uir_id":554791,"uir_name":"Plzeň"}
+336958756;2014-10-01 00:49:37.0;{"what":"tesco","where":"Kladno, okres Kladno","from":"0","size":"3","source_facility":"op"}
+336958720;2014-10-01 00:49:37.0;{"what":"tesco","where":"Kladno, okres Kladno","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":532053,"uir_name":"Kladno"}
+336958711;2014-10-01 00:50:20.0;{"what":"rozvoz pizzy","where":"praha","from":"0","size":"3","source_facility":"op","record_ids":[763009,58464,63826],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336958688;2014-10-01 00:50:21.0;{"what":"rozvoz pizzy","where":"praha","from":"0","size":"3","source_facility":"op"}
+336958858;2014-10-01 00:53:43.0;{"what":"pamela","where":"plzeň","from":"0","size":"3","source_facility":"op","record_ids":[82175],"uir_type":"city","uir_id":554791,"uir_name":"Plzeň"}
+336958812;2014-10-01 00:53:43.0;{"what":"pamela","where":"plzeň","from":"0","size":"3","source_facility":"op"}
+336958863;2014-10-01 00:54:55.0;{"what":"autozámečník","where":"Benešova, Brno - střed","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"street","uir_id":33529,"uir_name":"Benešova"}
+336958832;2014-10-01 00:54:56.0;{"what":"autozámečník","where":"Benešova, Brno - střed","from":"0","size":"3","source_facility":"op"}
+336959081;2014-10-01 00:57:24.0;{"what":"t mobile","where":"","from":"0","size":"3","source_facility":"op","record_ids":[68146]}
+336958997;2014-10-01 00:57:25.0;{"what":"t mobile","where":"","from":"0","size":"3","source_facility":"op"}
+336958988;2014-10-01 00:57:30.0;{"what":"t mobile","where":"","from":"3","size":"5","source_facility":"op"}
+336959184;2014-10-01 00:58:54.0;{"what":"strip bar pamela","where":"plzeN","from":"0","size":"3","source_facility":"op"}
+336958975;2014-10-01 00:58:54.0;{"what":"strip bar pamela","where":"plzeN","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554791,"uir_name":"Plzeň"}
+336959378;2014-10-01 01:03:21.0;{"what":"byliny frohlich","where":"","from":"0","size":"3","source_facility":"op"}
+336959310;2014-10-01 01:03:21.0;{"what":"byliny frohlich","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336959719;2014-10-01 01:11:08.0;{"what":"lékárna nonstop","where":"teplice","from":"0","size":"3","source_facility":"op"}
+336959571;2014-10-01 01:11:08.0;{"what":"lékárna nonstop","where":"teplice","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":567442,"uir_name":"Teplice"}
+336959625;2014-10-01 01:11:39.0;{"what":"lékárna pohotovost","where":"teplice","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":567442,"uir_name":"Teplice"}
+336959611;2014-10-01 01:11:39.0;{"what":"lékárna pohotovost","where":"teplice","from":"0","size":"3","source_facility":"op"}
+336959989;2014-10-01 01:21:25.0;{"what":"taxi","where":"Kralupy nad vltavou","from":"0","size":"3","source_facility":"op"}
+336959954;2014-10-01 01:21:25.0;{"what":"taxi","where":"Kralupy nad vltavou","from":"0","size":"3","source_facility":"op","record_ids":[84654,70138,59313],"uir_type":"city","uir_id":534951,"uir_name":"Kralupy nad Vltavou"}
+336960100;2014-10-01 01:22:29.0;{"what":"penzion","where":"Prostějov, okres Prostějov","from":"0","size":"3","source_facility":"op"}
+336959968;2014-10-01 01:22:29.0;{"what":"penzion","where":"Prostějov, okres Prostějov","from":"0","size":"3","source_facility":"op","record_ids":[78773,65661,76185],"uir_type":"city","uir_id":589250,"uir_name":"Prostějov"}
+336960107;2014-10-01 01:22:49.0;{"what":"penzion","where":"Prostějov, okres Prostějov","from":"3","size":"5","source_facility":"op","record_ids":[637989,505049,65661,76185,68766],"uir_type":"city","uir_id":589250,"uir_name":"Prostějov"}
+336960478;2014-10-01 01:23:54.0;{"what":"penzion","where":"Prostějov, okres Prostějov","from":"8","size":"15","source_facility":"op","record_ids":[514789],"uir_type":"city","uir_id":589250,"uir_name":"Prostějov"}
+336960308;2014-10-01 01:25:20.0;{"what":"o2","where":"","from":"0","size":"3","source_facility":"op"}
+336960114;2014-10-01 01:25:20.0;{"what":"o2","where":"","from":"0","size":"3","source_facility":"op","record_ids":[761727,71541,56640]}
+336960189;2014-10-01 01:25:23.0;{"what":"tesco mobil","where":"","from":"0","size":"3","source_facility":"op"}
+336960090;2014-10-01 01:25:23.0;{"what":"tesco mobil","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336960238;2014-10-01 01:26:00.0;{"what":"penzion","where":"Mostkovice, okres Prostějov","from":"0","size":"3","source_facility":"op"}
+336960175;2014-10-01 01:26:00.0;{"what":"penzion","where":"Mostkovice, okres Prostějov","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":589730,"uir_name":"Mostkovice"}
+336960154;2014-10-01 01:26:00.0;{"what":"penzion","where":"Mostkovice, okres Prostějov","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":589730,"uir_name":"Mostkovice"}
+336960397;2014-10-01 01:28:12.0;{"what":"taxi","where":"kamenice nad lipou","from":"0","size":"3","source_facility":"op"}
+336960266;2014-10-01 01:28:12.0;{"what":"taxi","where":"kamenice nad lipou","from":"0","size":"3","source_facility":"op","record_ids":[308225,76415,464167],"uir_type":"city","uir_id":548111,"uir_name":"Kamenice nad Lipou"}
+336960398;2014-10-01 01:28:15.0;{"what":"taxi","where":"Kamenice nad Lipou, okres Pelhřimov","from":"0","size":"3","source_facility":"op"}
+336960267;2014-10-01 01:28:15.0;{"what":"taxi","where":"Kamenice nad Lipou, okres Pelhřimov","from":"0","size":"3","source_facility":"op","record_ids":[308225,76415,464167],"uir_type":"city","uir_id":548111,"uir_name":"Kamenice nad Lipou"}
+336960253;2014-10-01 01:28:36.0;{"what":"taxi","where":"Kamenice nad Lipou, okres Pelhřimov","from":"3","size":"5","source_facility":"op","record_ids":[49843,49849,58033,63547,60594],"uir_type":"city","uir_id":548111,"uir_name":"Kamenice nad Lipou"}
+336960349;2014-10-01 01:29:41.0;{"what":"taxi","where":"brno","from":"0","size":"3","source_facility":"op"}
+336960504;2014-10-01 01:29:42.0;{"what":"taxi","where":"brno","from":"0","size":"3","source_facility":"op","record_ids":[80509,744013,81956],"uir_type":"city","uir_id":582786,"uir_name":"Brno"}
+336960523;2014-10-01 01:30:48.0;{"what":"holiday in","where":"brno","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":582786,"uir_name":"Brno"}
+336960468;2014-10-01 01:30:48.0;{"what":"holiday in","where":"brno","from":"0","size":"3","source_facility":"op"}
+336960505;2014-10-01 01:30:50.0;{"what":"holiday inn","where":"brno","from":"0","size":"3","source_facility":"op","record_ids":[84288],"uir_type":"city","uir_id":582786,"uir_name":"Brno"}
+336960390;2014-10-01 01:30:50.0;{"what":"holiday inn","where":"brno","from":"0","size":"3","source_facility":"op"}
+336960511;2014-10-01 01:32:28.0;{"what":"kooperativa","where":"","from":"0","size":"3","source_facility":"op","record_ids":[61210,76311,87555]}
+336960469;2014-10-01 01:32:28.0;{"what":"kooperativa","where":"","from":"0","size":"3","source_facility":"op"}
+336960529;2014-10-01 01:32:43.0;{"what":"kooperativa asisteční služba","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336960470;2014-10-01 01:32:43.0;{"what":"kooperativa asisteční služba","where":"","from":"0","size":"3","source_facility":"op"}
+336961067;2014-10-01 01:38:39.0;{"what":"taxi","where":"Špindlerův mlýn","from":"0","size":"3","source_facility":"op"}
+336960740;2014-10-01 01:38:39.0;{"what":"taxi","where":"Špindlerův mlýn","from":"0","size":"3","source_facility":"op","record_ids":[51563,80263,762903],"uir_type":"city","uir_id":579742,"uir_name":"Špindlerův Mlýn"}
+336960828;2014-10-01 01:39:06.0;{"what":"penzion","where":"Prostějov, okres Prostějov","from":"0","size":"3","source_facility":"op","record_ids":[78773,559163,610669],"uir_type":"city","uir_id":589250,"uir_name":"Prostějov"}
+336960788;2014-10-01 01:39:06.0;{"what":"penzion","where":"Prostějov, okres Prostějov","from":"0","size":"3","source_facility":"op"}
+336961085;2014-10-01 01:48:45.0;{"what":"škoda","where":"plzeň","from":"0","size":"3","source_facility":"op"}
+336961057;2014-10-01 01:48:45.0;{"what":"škoda","where":"plzeň","from":"0","size":"3","source_facility":"op","record_ids":[86278,87056,56185],"uir_type":"city","uir_id":554791,"uir_name":"Plzeň"}
+336961365;2014-10-01 01:50:41.0;{"what":"drink drive","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op","record_ids":[684083,66279,58685],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336961211;2014-10-01 01:50:41.0;{"what":"drink drive","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op"}
+336961370;2014-10-01 01:52:49.0;{"what":"taxi","where":"Jičín, okres Jičín","from":"0","size":"3","source_facility":"op","record_ids":[84997,49374,72804],"uir_type":"city","uir_id":572659,"uir_name":"Jičín"}
+336961334;2014-10-01 01:52:49.0;{"what":"taxi","where":"Jičín, okres Jičín","from":"0","size":"3","source_facility":"op"}
+336961569;2014-10-01 01:56:46.0;{"what":"721129322","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336961493;2014-10-01 01:56:46.0;{"what":"721129322","where":"","from":"0","size":"3","source_facility":"op"}
+336961850;2014-10-01 02:03:22.0;{"what":"ekosidas","where":"Žďár nad Sázavou - Radonín","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city_part","uir_id":195341,"uir_name":"Radonín"}
+336961775;2014-10-01 02:03:22.0;{"what":"ekosidas","where":"Žďár nad Sázavou - Radonín","from":"0","size":"3","source_facility":"op"}
+336961898;2014-10-01 02:03:28.0;{"what":"ekofidas","where":"Žďár nad Sázavou - Radonín","from":"0","size":"3","source_facility":"op"}
+336961851;2014-10-01 02:03:28.0;{"what":"ekofidas","where":"Žďár nad Sázavou - Radonín","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city_part","uir_id":195341,"uir_name":"Radonín"}
+336961864;2014-10-01 02:04:12.0;{"what":"sykora","where":"Žďár nad Sázavou - Radonín","from":"0","size":"3","source_facility":"op"}
+336961796;2014-10-01 02:04:12.0;{"what":"sykora","where":"Žďár nad Sázavou - Radonín","from":"0","size":"3","source_facility":"op","record_ids":[52559,64364,143682],"uir_type":"city_part","uir_id":195341,"uir_name":"Radonín"}
+336962080;2014-10-01 02:04:36.0;{"what":"sikora","where":"Žďár nad Sázavou - Radonín","from":"0","size":"3","source_facility":"op"}
+336961966;2014-10-01 02:04:36.0;{"what":"sikora","where":"Žďár nad Sázavou - Radonín","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city_part","uir_id":195341,"uir_name":"Radonín"}
+336961918;2014-10-01 02:04:50.0;{"what":"sýkora","where":"Žďár nad Sázavou - Radonín","from":"0","size":"3","source_facility":"op","record_ids":[52559,64364,143682],"uir_type":"city_part","uir_id":195341,"uir_name":"Radonín"}
+336961901;2014-10-01 02:04:50.0;{"what":"sýkora","where":"Žďár nad Sázavou - Radonín","from":"0","size":"3","source_facility":"op"}
+336962081;2014-10-01 02:06:07.0;{"what":"taxi","where":"praha","from":"0","size":"3","source_facility":"op"}
+336961946;2014-10-01 02:06:07.0;{"what":"taxi","where":"praha","from":"0","size":"3","source_facility":"op","record_ids":[762071,66181,58685],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336962088;2014-10-01 02:06:46.0;{"what":"taxi","where":"Brno, okres Brno-město","from":"0","size":"3","source_facility":"op"}
+336961947;2014-10-01 02:06:47.0;{"what":"taxi","where":"Brno, okres Brno-město","from":"0","size":"3","source_facility":"op","record_ids":[744013,80509,68244],"uir_type":"city","uir_id":582786,"uir_name":"Brno"}
+336962288;2014-10-01 02:14:40.0;{"what":"hotel kovák","where":"ostrava","from":"0","size":"3","source_facility":"op"}
+336962242;2014-10-01 02:14:41.0;{"what":"hotel kovák","where":"ostrava","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554821,"uir_name":"Ostrava"}
+336962560;2014-10-01 02:23:37.0;{"what":"kaple 09","where":"brno","from":"0","size":"3","source_facility":"op"}
+336962510;2014-10-01 02:23:37.0;{"what":"kaple 09","where":"brno","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":582786,"uir_name":"Brno"}
+336962606;2014-10-01 02:25:02.0;{"what":"taxi","where":"Kladno, okres Kladno","from":"0","size":"3","source_facility":"op","record_ids":[65850,65522,68847],"uir_type":"city","uir_id":532053,"uir_name":"Kladno"}
+336962571;2014-10-01 02:25:02.0;{"what":"taxi","where":"Kladno, okres Kladno","from":"0","size":"3","source_facility":"op"}
+336962624;2014-10-01 02:25:18.0;{"what":"taxi","where":"Kladno, okres Kladno","from":"3","size":"5","source_facility":"op","record_ids":[463827,200347],"uir_type":"city","uir_id":532053,"uir_name":"Kladno"}
+336962709;2014-10-01 02:26:01.0;{"what":"urgentní příjem ","where":"Olomouc","from":"0","size":"3","source_facility":"op"}
+336962673;2014-10-01 02:26:01.0;{"what":"urgentní příjem ","where":"Olomouc","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":500496,"uir_name":"Olomouc"}
+336962809;2014-10-01 02:29:13.0;{"what":"taxi","where":"Brno","from":"0","size":"3","source_facility":"op","record_ids":[744013,80509,81956],"uir_type":"city","uir_id":582786,"uir_name":"Brno"}
+336962677;2014-10-01 02:29:13.0;{"what":"taxi","where":"Brno","from":"0","size":"3","source_facility":"op"}
+336963138;2014-10-01 02:31:30.0;{"what":"sportžurnál","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336962895;2014-10-01 02:31:30.0;{"what":"sportžurnál","where":"","from":"0","size":"3","source_facility":"op"}
+336963106;2014-10-01 02:37:19.0;{"what":"kaple 09","where":"Brno, okres Brno-město","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":582786,"uir_name":"Brno"}
+336963014;2014-10-01 02:37:19.0;{"what":"kaple 09","where":"Brno, okres Brno-město","from":"0","size":"3","source_facility":"op"}
+336963128;2014-10-01 02:38:51.0;{"what":"taxi fér","where":"Karlovy Vary, okres Karlovy Vary","from":"0","size":"3","source_facility":"op"}
+336963093;2014-10-01 02:38:51.0;{"what":"taxi fér","where":"Karlovy Vary, okres Karlovy Vary","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554961,"uir_name":"Karlovy Vary"}
+336963260;2014-10-01 02:40:11.0;{"what":"taxi","where":"Karlovy Vary, okres Karlovy Vary","from":"0","size":"3","source_facility":"op"}
+336963249;2014-10-01 02:40:11.0;{"what":"taxi","where":"Karlovy Vary, okres Karlovy Vary","from":"0","size":"3","source_facility":"op","record_ids":[65857,762783,407819],"uir_type":"city","uir_id":554961,"uir_name":"Karlovy Vary"}
+336963287;2014-10-01 02:40:57.0;{"what":"radiožurnál","where":"","from":"0","size":"3","source_facility":"op"}
+336963131;2014-10-01 02:40:57.0;{"what":"radiožurnál","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336963321;2014-10-01 02:41:32.0;{"what":"radiožurnál živé vysílání","where":"","from":"0","size":"3","source_facility":"op"}
+336963229;2014-10-01 02:41:32.0;{"what":"radiožurnál živé vysílání","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336963191;2014-10-01 02:42:06.0;{"what":"vodňanské kuře","where":"Mirovice","from":"0","size":"3","source_facility":"op"}
+336963177;2014-10-01 02:42:06.0;{"what":"vodňanské kuře","where":"Mirovice","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":549592,"uir_name":"Mirovice"}
+336963601;2014-10-01 02:46:50.0;{"what":"taxi","where":"Rumburk, okres Děčín","from":"0","size":"3","source_facility":"op"}
+336963390;2014-10-01 02:46:50.0;{"what":"taxi","where":"Rumburk, okres Děčín","from":"0","size":"3","source_facility":"op","record_ids":[79520,61218],"uir_type":"city","uir_id":562777,"uir_name":"Rumburk"}
+336963858;2014-10-01 02:48:32.0;{"what":"taxi","where":"Sokolov","from":"0","size":"3","source_facility":"op","record_ids":[82067,66580,762883],"uir_type":"city","uir_id":560286,"uir_name":"Sokolov"}
+336963718;2014-10-01 02:48:32.0;{"what":"taxi","where":"Sokolov","from":"0","size":"3","source_facility":"op"}
+336963513;2014-10-01 02:49:13.0;{"what":"taxi","where":"Sokolov","from":"3","size":"5","source_facility":"op","record_ids":[66844,65857,53603,63324,49649],"uir_type":"city","uir_id":560286,"uir_name":"Sokolov"}
+336963619;2014-10-01 02:51:06.0;{"what":"taxi","where":"karlovy vary","from":"0","size":"3","source_facility":"op"}
+336963557;2014-10-01 02:51:06.0;{"what":"taxi","where":"karlovy vary","from":"0","size":"3","source_facility":"op","record_ids":[65857,762783,407819],"uir_type":"city","uir_id":554961,"uir_name":"Karlovy Vary"}
+336963725;2014-10-01 02:51:31.0;{"what":"taxi","where":"České budějovice","from":"0","size":"3","source_facility":"op"}
+336963686;2014-10-01 02:51:31.0;{"what":"taxi","where":"České budějovice","from":"0","size":"3","source_facility":"op","record_ids":[65096,82679,65138],"uir_type":"city","uir_id":544256,"uir_name":"České Budějovice"}
+336963886;2014-10-01 02:56:37.0;{"what":"","where":"sport žurnálů","from":"0","size":"3","source_facility":"op"}
+336963871;2014-10-01 02:56:37.0;{"what":"","where":"sport žurnálů","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336963846;2014-10-01 02:57:26.0;{"what":"sport žurnál","where":"sport žurnálů","from":"0","size":"3","source_facility":"op"}
+336963784;2014-10-01 02:57:26.0;{"what":"sport žurnál","where":"sport žurnálů","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336963847;2014-10-01 02:57:28.0;{"what":"sport žurnál","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336963755;2014-10-01 02:57:28.0;{"what":"sport žurnál","where":"","from":"0","size":"3","source_facility":"op"}
+336964021;2014-10-01 02:59:39.0;{"what":"studen agency","where":"","from":"0","size":"3","source_facility":"op"}
+336963897;2014-10-01 02:59:39.0;{"what":"studen agency","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336964679;2014-10-01 03:10:46.0;{"what":"pipovar","where":"jihlava","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":586846,"uir_name":"Jihlava"}
+336964502;2014-10-01 03:10:46.0;{"what":"pipovar","where":"jihlava","from":"0","size":"3","source_facility":"op"}
+336964547;2014-10-01 03:12:15.0;{"what":"zubní pohotovost","where":"Písek, okres Písek","from":"0","size":"3","source_facility":"op"}
+336964449;2014-10-01 03:12:15.0;{"what":"zubní pohotovost","where":"Písek, okres Písek","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":549240,"uir_name":"Písek"}
+336964739;2014-10-01 03:12:56.0;{"what":"zubní mudr","where":"Písek, okres Písek","from":"0","size":"3","source_facility":"op"}
+336964477;2014-10-01 03:12:56.0;{"what":"zubní mudr","where":"Písek, okres Písek","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":549240,"uir_name":"Písek"}
+336964684;2014-10-01 03:12:59.0;{"what":"hotel merhraft","where":"praha","from":"0","size":"3","source_facility":"op"}
+336964529;2014-10-01 03:13:00.0;{"what":"hotel merhraft","where":"praha","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336964685;2014-10-01 03:13:13.0;{"what":"hotel princ","where":"Praha","from":"0","size":"3","source_facility":"op"}
+336964513;2014-10-01 03:13:13.0;{"what":"hotel princ","where":"Praha","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336964530;2014-10-01 03:13:15.0;{"what":"zubní mudr","where":"Písek, okres Písek","from":"3","size":"5","source_facility":"op"}
+336964744;2014-10-01 03:13:16.0;{"what":"hotel merhaft","where":"praha","from":"0","size":"3","source_facility":"op"}
+336964660;2014-10-01 03:13:17.0;{"what":"hotel merhaft","where":"praha","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336964686;2014-10-01 03:13:24.0;{"what":"hotel merh","where":"praha","from":"0","size":"3","source_facility":"op"}
+336964629;2014-10-01 03:13:24.0;{"what":"hotel merh","where":"praha","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336964531;2014-10-01 03:13:25.0;{"what":"apartmány hotel princ","where":"Praha","from":"0","size":"3","source_facility":"op"}
+336964551;2014-10-01 03:13:26.0;{"what":"apartmány hotel princ","where":"Praha","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336964564;2014-10-01 03:13:34.0;{"what":"hotel merhaut","where":"praha","from":"0","size":"3","source_facility":"op"}
+336964518;2014-10-01 03:13:35.0;{"what":"hotel merhaut","where":"praha","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336964565;2014-10-01 03:13:52.0;{"what":"apartmány","where":"Praha Staroměstské náměstí 29","from":"0","size":"3","source_facility":"op"}
+336964552;2014-10-01 03:13:52.0;{"what":"apartmány","where":"Praha Staroměstské náměstí 29","from":"0","size":"3","source_facility":"op","record_ids":[67524,85471,60014],"uir_type":"address","uir_id":21720185,"uir_name":null}
+336964661;2014-10-01 03:14:14.0;{"what":"apartmány princ","where":"Praha Staroměstské náměstí ","from":"0","size":"3","source_facility":"op"}
+336964553;2014-10-01 03:14:14.0;{"what":"apartmány princ","where":"Praha Staroměstské náměstí ","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"street","uir_id":470244,"uir_name":"Staroměstské náměstí"}
+336964912;2014-10-01 03:21:50.0;{"what":"rozvoz","where":"Praha","from":"0","size":"3","source_facility":"op"}
+336964892;2014-10-01 03:21:51.0;{"what":"rozvoz","where":"Praha","from":"0","size":"3","source_facility":"op","record_ids":[85120,86439,66279],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336964913;2014-10-01 03:21:56.0;{"what":"rozvoz pizza","where":"Praha","from":"0","size":"3","source_facility":"op"}
+336964893;2014-10-01 03:21:57.0;{"what":"rozvoz pizza","where":"Praha","from":"0","size":"3","source_facility":"op","record_ids":[763009,58464,762405],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336964896;2014-10-01 03:22:06.0;{"what":"pizza nonstop","where":"Praha","from":"0","size":"3","source_facility":"op"}
+336964876;2014-10-01 03:22:06.0;{"what":"pizza nonstop","where":"Praha","from":"0","size":"3","source_facility":"op","record_ids":[58464,66373],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336965282;2014-10-01 03:23:56.0;{"what":"zubní pohotovost","where":"","from":"0","size":"3","source_facility":"op"}
+336964988;2014-10-01 03:23:56.0;{"what":"zubní pohotovost","where":"","from":"0","size":"3","source_facility":"op","record_ids":[86206,188615,66849]}
+336965286;2014-10-01 03:26:19.0;{"what":"sistenční služba","where":"ostrava","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554821,"uir_name":"Ostrava"}
+336965033;2014-10-01 03:26:19.0;{"what":"sistenční služba","where":"ostrava","from":"0","size":"3","source_facility":"op"}
+336965162;2014-10-01 03:26:22.0;{"what":"asistenční služba","where":"ostrava","from":"0","size":"3","source_facility":"op"}
+336965127;2014-10-01 03:26:22.0;{"what":"asistenční služba","where":"ostrava","from":"0","size":"3","source_facility":"op","record_ids":[84973,51962,83158],"uir_type":"city","uir_id":554821,"uir_name":"Ostrava"}
+336965197;2014-10-01 03:26:37.0;{"what":"taxi","where":"Brno","from":"0","size":"3","source_facility":"op"}
+336965070;2014-10-01 03:26:37.0;{"what":"taxi","where":"Brno","from":"0","size":"3","source_facility":"op","record_ids":[744013,80509,81956],"uir_type":"city","uir_id":582786,"uir_name":"Brno"}
+336965445;2014-10-01 03:31:17.0;{"what":"frekvence 1","where":"","from":"0","size":"3","source_facility":"op"}
+336965307;2014-10-01 03:31:17.0;{"what":"frekvence 1","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336965249;2014-10-01 03:32:02.0;{"what":"frekvence 1 kontakt do studia","where":"","from":"0","size":"3","source_facility":"op"}
+336965308;2014-10-01 03:32:03.0;{"what":"frekvence 1 kontakt do studia","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336965783;2014-10-01 03:41:06.0;{"what":"taxi","where":"prostějov","from":"0","size":"3","source_facility":"op","record_ids":[80054,84916,762869],"uir_type":"city","uir_id":589250,"uir_name":"Prostějov"}
+336965636;2014-10-01 03:41:06.0;{"what":"taxi","where":"prostějov","from":"0","size":"3","source_facility":"op"}
+336965902;2014-10-01 03:43:21.0;{"what":"frekvence 1","where":"","from":"0","size":"3","source_facility":"op"}
+336965752;2014-10-01 03:43:21.0;{"what":"frekvence 1","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336966323;2014-10-01 03:43:30.0;{"what":"frekvence 1 živé vysílání","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336965757;2014-10-01 03:43:30.0;{"what":"frekvence 1 živé vysílání","where":"","from":"0","size":"3","source_facility":"op"}
+336966180;2014-10-01 03:53:07.0;{"what":"taxi odas","where":"plzeň","from":"0","size":"3","source_facility":"op"}
+336966176;2014-10-01 03:53:08.0;{"what":"taxi odas","where":"plzeň","from":"0","size":"3","source_facility":"op","record_ids":[70521],"uir_type":"city","uir_id":554791,"uir_name":"Plzeň"}
+336966560;2014-10-01 03:56:47.0;{"what":"frekvence 1 živé vysílání","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336966350;2014-10-01 03:56:47.0;{"what":"frekvence 1 živé vysílání","where":"","from":"0","size":"3","source_facility":"op"}
+336966419;2014-10-01 03:57:23.0;{"what":"speed cars","where":"","from":"0","size":"3","source_facility":"op"}
+336966317;2014-10-01 03:57:23.0;{"what":"speed cars","where":"","from":"0","size":"3","source_facility":"op","record_ids":[66971,75208]}
+336966366;2014-10-01 03:57:30.0;{"what":"speed cars","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op"}
+336966354;2014-10-01 03:57:30.0;{"what":"speed cars","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op","record_ids":[75208],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336966586;2014-10-01 03:57:45.0;{"what":"aaa taxi","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op"}
+336966472;2014-10-01 03:57:45.0;{"what":"aaa taxi","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op","record_ids":[66181],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336966962;2014-10-01 04:07:50.0;{"what":"české dráhy","where":"","from":"0","size":"3","source_facility":"op"}
+336966899;2014-10-01 04:07:50.0;{"what":"české dráhy","where":"","from":"0","size":"3","source_facility":"op","record_ids":[74135,148325]}
+336966766;2014-10-01 04:08:15.0;{"what":"české dráhy","where":"","from":"3","size":"5","source_facility":"op"}
+336967051;2014-10-01 04:08:28.0;{"what":"české dráhy","where":"brno","from":"0","size":"3","source_facility":"op"}
+336966900;2014-10-01 04:08:29.0;{"what":"české dráhy","where":"brno","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":582786,"uir_name":"Brno"}
+336966872;2014-10-01 04:09:21.0;{"what":"pohřební služba","where":"Žďár nad Sázavou, okres Žďár nad Sázavou","from":"0","size":"3","source_facility":"op"}
+336966818;2014-10-01 04:09:22.0;{"what":"pohřební služba","where":"Žďár nad Sázavou, okres Žďár nad Sázavou","from":"0","size":"3","source_facility":"op","record_ids":[761789,167497,678693],"uir_type":"city","uir_id":595209,"uir_name":"Žďár nad Sázavou"}
+336967054;2014-10-01 04:09:31.0;{"what":"pohřební služba","where":"Žďár nad Sázavou, okres Žďár nad Sázavou","from":"3","size":"5","source_facility":"op","record_ids":[52455],"uir_type":"city","uir_id":595209,"uir_name":"Žďár nad Sázavou"}
+336967161;2014-10-01 04:13:36.0;{"what":"taxi","where":"Vodňany","from":"0","size":"3","source_facility":"op"}
+336966990;2014-10-01 04:13:36.0;{"what":"taxi","where":"Vodňany","from":"0","size":"3","source_facility":"op","record_ids":[49828,275673,82030],"uir_type":"city","uir_id":551953,"uir_name":"Vodňany"}
+336967244;2014-10-01 04:14:45.0;{"what":"taxi","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op","record_ids":[762071,66181,58685],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336967115;2014-10-01 04:14:45.0;{"what":"taxi","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op"}
+336967649;2014-10-01 04:24:37.0;{"what":"chalup*","where":"Baranova 1487/16, Praha - Praha 3, 130 00","from":"0","size":"3","source_facility":"op","record_ids":[83153,66628,479389],"uir_type":"address","uir_id":21782695,"uir_name":null}
+336967460;2014-10-01 04:24:38.0;{"what":"chalup*","where":"Baranova 1487/16, Praha - Praha 3, 130 00","from":"0","size":"3","source_facility":"op"}
+336967337;2014-10-01 04:24:48.0;{"what":"","where":"Baranova 1487/16, Praha - Praha 3, 130 00","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"address","uir_id":21782695,"uir_name":null}
+336967511;2014-10-01 04:24:49.0;{"what":"","where":"Baranova 1487/16, Praha - Praha 3, 130 00","from":"0","size":"3","source_facility":"op"}
+336967400;2014-10-01 04:24:53.0;{"what":"","where":"Baranova 1487/16, Praha - Praha 3, 130 00","from":"3","size":"5","source_facility":"op"}
+336967652;2014-10-01 04:29:07.0;{"what":"instalatér","where":"Proboštov, okres Teplice","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":567787,"uir_name":"Proboštov"}
+336967566;2014-10-01 04:29:07.0;{"what":"instalatér","where":"Proboštov, okres Teplice","from":"0","size":"3","source_facility":"op"}
+336967655;2014-10-01 04:29:12.0;{"what":"instalatér nonstoú","where":"Proboštov, okres Teplice","from":"0","size":"3","source_facility":"op"}
+336967567;2014-10-01 04:29:12.0;{"what":"instalatér nonstoú","where":"Proboštov, okres Teplice","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":567787,"uir_name":"Proboštov"}
+336967719;2014-10-01 04:29:13.0;{"what":"instalatér nonstop","where":"Proboštov, okres Teplice","from":"0","size":"3","source_facility":"op"}
+336967635;2014-10-01 04:29:14.0;{"what":"instalatér nonstop","where":"Proboštov, okres Teplice","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":567787,"uir_name":"Proboštov"}
+336967674;2014-10-01 04:29:37.0;{"what":"instalatér nonstop","where":"Teplice, okres Teplice","from":"0","size":"3","source_facility":"op","record_ids":[259123,86057],"uir_type":"city","uir_id":567442,"uir_name":"Teplice"}
+336967588;2014-10-01 04:29:37.0;{"what":"instalatér nonstop","where":"Teplice, okres Teplice","from":"0","size":"3","source_facility":"op"}
+336967844;2014-10-01 04:30:22.0;{"what":"instalatér","where":"teplice","from":"0","size":"3","source_facility":"op"}
+336967721;2014-10-01 04:30:22.0;{"what":"instalatér","where":"teplice","from":"0","size":"3","source_facility":"op","record_ids":[259123,86057,54305],"uir_type":"city","uir_id":567442,"uir_name":"Teplice"}
+336967787;2014-10-01 04:30:56.0;{"what":"instalatér","where":"Proboštov, okres Teplice","from":"0","size":"3","source_facility":"op"}
+336967757;2014-10-01 04:30:56.0;{"what":"instalatér","where":"Proboštov, okres Teplice","from":"0","size":"3","source_facility":"op","record_ids":[259123,86057,60832],"uir_type":"city","uir_id":567787,"uir_name":"Proboštov"}
+336967942;2014-10-01 04:33:29.0;{"what":"instalatér nonstop","where":"Teplice, okres Teplice","from":"0","size":"3","source_facility":"op","record_ids":[259123,86057],"uir_type":"city","uir_id":567442,"uir_name":"Teplice"}
+336967899;2014-10-01 04:33:29.0;{"what":"instalatér nonstop","where":"Teplice, okres Teplice","from":"0","size":"3","source_facility":"op"}
+336967927;2014-10-01 04:33:47.0;{"what":"kanalizace voda","where":"Teplice, okres Teplice","from":"0","size":"3","source_facility":"op"}
+336967853;2014-10-01 04:33:47.0;{"what":"kanalizace voda","where":"Teplice, okres Teplice","from":"0","size":"3","source_facility":"op","record_ids":[86057],"uir_type":"city","uir_id":567442,"uir_name":"Teplice"}
+336967947;2014-10-01 04:34:00.0;{"what":"mövenpick hotel","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336967902;2014-10-01 04:34:01.0;{"what":"mövenpick hotel","where":"","from":"0","size":"3","source_facility":"op"}
+336968066;2014-10-01 04:34:07.0;{"what":"mövenpick hotel","where":"Praha","from":"0","size":"3","source_facility":"op"}
+336968000;2014-10-01 04:34:08.0;{"what":"mövenpick hotel","where":"Praha","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336967854;2014-10-01 04:34:28.0;{"what":"courtyard hotel","where":"Praha","from":"0","size":"3","source_facility":"op"}
+336967879;2014-10-01 04:34:29.0;{"what":"courtyard hotel","where":"Praha","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336968140;2014-10-01 04:40:01.0;{"what":"taxi","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op","record_ids":[762071,66181,58685],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336968127;2014-10-01 04:40:01.0;{"what":"taxi","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op"}
+336968281;2014-10-01 04:40:14.0;{"what":"vodovody a kanalizace","where":"Teplice","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":567442,"uir_name":"Teplice"}
+336968263;2014-10-01 04:40:14.0;{"what":"vodovody a kanalizace","where":"Teplice","from":"0","size":"3","source_facility":"op"}
+336968212;2014-10-01 04:41:32.0;{"what":"taxi","where":"jihlava","from":"0","size":"3","source_facility":"op","record_ids":[85307,64532,65546],"uir_type":"city","uir_id":586846,"uir_name":"Jihlava"}
+336968134;2014-10-01 04:41:32.0;{"what":"taxi","where":"jihlava","from":"0","size":"3","source_facility":"op"}
+336968184;2014-10-01 04:42:34.0;{"what":"countryard","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336968151;2014-10-01 04:42:34.0;{"what":"countryard","where":"","from":"0","size":"3","source_facility":"op"}
+336968406;2014-10-01 04:42:39.0;{"what":"countryard","where":"prague","from":"0","size":"3","source_facility":"op"}
+336968425;2014-10-01 04:42:40.0;{"what":"countryard","where":"prague","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336968426;2014-10-01 04:43:23.0;{"what":"taxi","where":"Pardubice, okres Pardubice","from":"0","size":"3","source_facility":"op"}
+336968137;2014-10-01 04:43:23.0;{"what":"taxi","where":"Pardubice, okres Pardubice","from":"0","size":"3","source_facility":"op","record_ids":[62324,86765,81465],"uir_type":"city","uir_id":555134,"uir_name":"Pardubice"}
+336968359;2014-10-01 04:44:28.0;{"what":"taxi","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op","record_ids":[762071,66181,58685],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336968340;2014-10-01 04:44:28.0;{"what":"taxi","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op"}
+336968300;2014-10-01 04:44:49.0;{"what":"taxi","where":"Praha, Hlavní město Praha","from":"3","size":"5","source_facility":"op","record_ids":[66279,684083,67229,762931,761673],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336968316;2014-10-01 04:47:07.0;{"what":"o2","where":"","from":"0","size":"3","source_facility":"op","record_ids":[761727,71541,56640]}
+336968296;2014-10-01 04:47:07.0;{"what":"o2","where":"","from":"0","size":"3","source_facility":"op"}
+336968500;2014-10-01 04:47:09.0;{"what":"o2","where":"","from":"3","size":"5","source_facility":"op","record_ids":[84854,57080,75090,68146,58794]}
+336968415;2014-10-01 04:50:35.0;{"what":"net café","where":"aš","from":"0","size":"3","source_facility":"op"}
+336968530;2014-10-01 04:50:36.0;{"what":"net café","where":"aš","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554499,"uir_name":"Aš"}
+336968416;2014-10-01 04:50:51.0;{"what":"net café alešovka","where":"aš","from":"0","size":"3","source_facility":"op"}
+336968394;2014-10-01 04:50:51.0;{"what":"net café alešovka","where":"aš","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554499,"uir_name":"Aš"}
+336968543;2014-10-01 04:57:12.0;{"what":"instalatér pohotovost","where":"Proboštov","from":"0","size":"3","source_facility":"op","record_ids":[259123],"uir_type":"city","uir_id":567787,"uir_name":"Proboštov"}
+336968533;2014-10-01 04:57:12.0;{"what":"instalatér pohotovost","where":"Proboštov","from":"0","size":"3","source_facility":"op"}
+336968639;2014-10-01 04:57:27.0;{"what":"instalatér pohotovost","where":"Teplice","from":"0","size":"3","source_facility":"op"}
+336968611;2014-10-01 04:57:27.0;{"what":"instalatér pohotovost","where":"Teplice","from":"0","size":"3","source_facility":"op","record_ids":[259123],"uir_type":"city","uir_id":567442,"uir_name":"Teplice"}
+336968642;2014-10-01 05:00:06.0;{"what":"nejlevnější taxi","where":"praha","from":"0","size":"3","source_facility":"op","record_ids":[80681,84977],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336968618;2014-10-01 05:00:06.0;{"what":"nejlevnější taxi","where":"praha","from":"0","size":"3","source_facility":"op"}
+336968885;2014-10-01 05:06:03.0;{"what":"aaa taxi","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op"}
+336968754;2014-10-01 05:06:03.0;{"what":"aaa taxi","where":"Praha, Hlavní město Praha","from":"0","size":"3","source_facility":"op","record_ids":[66181],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336968856;2014-10-01 05:08:47.0;{"what":"instalatér ","where":"Teplice, okres Teplice","from":"0","size":"3","source_facility":"op"}
+336969044;2014-10-01 05:08:48.0;{"what":"instalatér ","where":"Teplice, okres Teplice","from":"0","size":"3","source_facility":"op","record_ids":[259123,86057,54305],"uir_type":"city","uir_id":567442,"uir_name":"Teplice"}
+336968932;2014-10-01 05:11:43.0;{"what":"instalatér ","where":"Teplice, okres Teplice","from":"3","size":"5","source_facility":"op","record_ids":[50664,69294,81636,745899,747013],"uir_type":"city","uir_id":567442,"uir_name":"Teplice"}
+336969259;2014-10-01 05:12:01.0;{"what":"instalatér ","where":"Teplice, okres Teplice","from":"8","size":"15","source_facility":"op","record_ids":[81636,69294,95445,104982,251697,60832,60679,401300,299663,762343,266550,401612,726225,51947,127937],"uir_type":"city","uir_id":567442,"uir_name":"Teplice"}
+336969107;2014-10-01 05:15:10.0;{"what":"nejlevnější taxi","where":"praha","from":"0","size":"3","source_facility":"op"}
+336969128;2014-10-01 05:15:11.0;{"what":"nejlevnější taxi","where":"praha","from":"0","size":"3","source_facility":"op","record_ids":[80681,84977],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336969163;2014-10-01 05:15:35.0;{"what":"Nevřelová","where":"","from":"0","size":"3","source_facility":"op","record_ids":[740591]}
+336969133;2014-10-01 05:15:36.0;{"what":"Nevřelová","where":"","from":"0","size":"3","source_facility":"op"}
+336969183;2014-10-01 05:15:40.0;{"what":"Nevřelová","where":"","from":"3","size":"5","source_facility":"op"}
+336969164;2014-10-01 05:16:06.0;{"what":"Nevřelová","where":"Uhřečice","from":"0","size":"3","source_facility":"op"}
+336969211;2014-10-01 05:16:07.0;{"what":"Nevřelová","where":"Uhřečice","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336969301;2014-10-01 05:16:10.0;{"what":"Nevřelová","where":"Uhřičice","from":"0","size":"3","source_facility":"op"}
+336969227;2014-10-01 05:16:10.0;{"what":"Nevřelová","where":"Uhřičice","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":552879,"uir_name":"Uhřičice"}
+336969184;2014-10-01 05:16:29.0;{"what":"Nevřela","where":"Uhřičice","from":"0","size":"3","source_facility":"op"}
+336969165;2014-10-01 05:16:29.0;{"what":"Nevřela","where":"Uhřičice","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":552879,"uir_name":"Uhřičice"}
+336969281;2014-10-01 05:16:36.0;{"what":"Nevřelová","where":"Uhřičice","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":552879,"uir_name":"Uhřičice"}
+336969262;2014-10-01 05:16:36.0;{"what":"Nevřelová","where":"Uhřičice","from":"0","size":"3","source_facility":"op"}
+336969448;2014-10-01 05:19:02.0;{"what":"agency student","where":"","from":"0","size":"3","source_facility":"op","record_ids":[72708,69564]}
+336969248;2014-10-01 05:19:02.0;{"what":"agency student","where":"","from":"0","size":"3","source_facility":"op"}
+336969249;2014-10-01 05:19:52.0;{"what":"zrůstová irena","where":"plzeň","from":"0","size":"3","source_facility":"op"}
+336969178;2014-10-01 05:19:53.0;{"what":"zrůstová irena","where":"plzeň","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554791,"uir_name":"Plzeň"}
+336969235;2014-10-01 05:19:57.0;{"what":"zrůst*","where":"plzeň","from":"0","size":"3","source_facility":"op"}
+336969263;2014-10-01 05:19:58.0;{"what":"zrůst*","where":"plzeň","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554791,"uir_name":"Plzeň"}
+336969264;2014-10-01 05:20:28.0;{"what":"komerční banka","where":"Praha - Zbraslav","from":"0","size":"3","source_facility":"op","record_ids":[463945],"uir_type":"urban_district","uir_id":539864,"uir_name":"Praha-Zbraslav"}
+336969252;2014-10-01 05:20:28.0;{"what":"komerční banka","where":"Praha - Zbraslav","from":"0","size":"3","source_facility":"op"}
+336969619;2014-10-01 05:21:29.0;{"what":"komerční banka","where":"černošice","from":"0","size":"3","source_facility":"op","record_ids":[463849],"uir_type":"city","uir_id":539139,"uir_name":"Černošice"}
+336969257;2014-10-01 05:21:29.0;{"what":"komerční banka","where":"černošice","from":"0","size":"3","source_facility":"op"}
+336969463;2014-10-01 05:22:05.0;{"what":"komerční banka","where":"Dobříš, okres Příbram","from":"0","size":"3","source_facility":"op","record_ids":[463850],"uir_type":"city","uir_id":540111,"uir_name":"Dobříš"}
+336969367;2014-10-01 05:22:05.0;{"what":"komerční banka","where":"Dobříš, okres Příbram","from":"0","size":"3","source_facility":"op"}
+336969422;2014-10-01 05:22:37.0;{"what":"komerční banka","where":"Radotín, okres Přerov","from":"0","size":"3","source_facility":"op"}
+336969310;2014-10-01 05:22:37.0;{"what":"komerční banka","where":"Radotín, okres Přerov","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":517445,"uir_name":"Radotín"}
+336969622;2014-10-01 05:22:42.0;{"what":"komerční banka","where":"Praha - Radotín","from":"0","size":"3","source_facility":"op","record_ids":[463945],"uir_type":"city_part","uir_id":306169,"uir_name":"Radotín"}
+336969294;2014-10-01 05:22:42.0;{"what":"komerční banka","where":"Praha - Radotín","from":"0","size":"3","source_facility":"op"}
+336969466;2014-10-01 05:24:52.0;{"what":"era spořitelna","where":"","from":"0","size":"3","source_facility":"op"}
+336969313;2014-10-01 05:24:52.0;{"what":"era spořitelna","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336969405;2014-10-01 05:26:01.0;{"what":"probo bus","where":"","from":"0","size":"3","source_facility":"op","record_ids":[174736]}
+336969386;2014-10-01 05:26:01.0;{"what":"probo bus","where":"","from":"0","size":"3","source_facility":"op"}
+336969961;2014-10-01 05:38:08.0;{"what":"bazoš atraktivní pony","where":"","from":"0","size":"3","source_facility":"op"}
+336969709;2014-10-01 05:38:08.0;{"what":"bazoš atraktivní pony","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336969849;2014-10-01 05:38:53.0;{"what":"český hydrometerologický ústav","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336969773;2014-10-01 05:38:53.0;{"what":"český hydrometerologický ústav","where":"","from":"0","size":"3","source_facility":"op"}
+336969962;2014-10-01 05:39:06.0;{"what":"koně","where":"Domažlice, okres Domažlice","from":"0","size":"3","source_facility":"op"}
+336969925;2014-10-01 05:39:06.0;{"what":"koně","where":"Domažlice, okres Domažlice","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":553425,"uir_name":"Domažlice"}
+336969754;2014-10-01 05:41:22.0;{"what":"nejlevnjší taxi","where":"praha","from":"0","size":"3","source_facility":"op"}
+336969718;2014-10-01 05:41:22.0;{"what":"nejlevnjší taxi","where":"praha","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336969738;2014-10-01 05:41:28.0;{"what":"nejlevnější taxi","where":"praha","from":"0","size":"3","source_facility":"op"}
+336969973;2014-10-01 05:41:29.0;{"what":"nejlevnější taxi","where":"praha","from":"0","size":"3","source_facility":"op","record_ids":[80681,84977],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336969930;2014-10-01 05:41:40.0;{"what":"koně","where":"Chrastavice, okres Domažlice","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":553751,"uir_name":"Chrastavice"}
+336969813;2014-10-01 05:41:40.0;{"what":"koně","where":"Chrastavice, okres Domažlice","from":"0","size":"3","source_facility":"op"}
+336969863;2014-10-01 05:45:15.0;{"what":"radiožurnál","where":"","from":"0","size":"3","source_facility":"op"}
+336969984;2014-10-01 05:45:16.0;{"what":"radiožurnál","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336970000;2014-10-01 05:46:02.0;{"what":"potraviny centrum","where":"Kolín","from":"0","size":"3","source_facility":"op"}
+336969933;2014-10-01 05:46:02.0;{"what":"potraviny centrum","where":"Kolín","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":533165,"uir_name":"Kolín"}
+336970005;2014-10-01 05:48:09.0;{"what":"škola","where":"beroun pod homolkou","from":"0","size":"3","source_facility":"op"}
+336969954;2014-10-01 05:48:09.0;{"what":"škola","where":"beroun pod homolkou","from":"0","size":"3","source_facility":"op","record_ids":[684333,214732,85547],"uir_type":"street","uir_id":8826,"uir_name":"Pod Homolkou"}
+336970519;2014-10-01 05:51:53.0;{"what":"Černocký","where":"Český krumlov","from":"0","size":"3","source_facility":"op"}
+336970034;2014-10-01 05:51:53.0;{"what":"Černocký","where":"Český krumlov","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"district","uir_id":3302,"uir_name":"Český Krumlov"}
+336970388;2014-10-01 05:55:01.0;{"what":"slezská nemocnice","where":"Opava, okres Opava","from":"0","size":"3","source_facility":"op"}
+336970134;2014-10-01 05:55:02.0;{"what":"slezská nemocnice","where":"Opava, okres Opava","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":505927,"uir_name":"Opava"}
+336970193;2014-10-01 05:56:58.0;{"what":"bmb","where":"havlíčkův brod","from":"0","size":"3","source_facility":"op"}
+336970250;2014-10-01 05:56:59.0;{"what":"bmb","where":"havlíčkův brod","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":568414,"uir_name":"Havlíčkův Brod"}
+336970489;2014-10-01 05:57:01.0;{"what":"bmb","where":"Havlíčkův Brod, okres Havlíčkův Brod","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":568414,"uir_name":"Havlíčkův Brod"}
+336970194;2014-10-01 05:57:01.0;{"what":"bmb","where":"Havlíčkův Brod, okres Havlíčkův Brod","from":"0","size":"3","source_facility":"op"}
+336970490;2014-10-01 06:00:49.0;{"what":"ubytování","where":"Brno, okres Brno-město","from":"0","size":"3","source_facility":"op","record_ids":[69818,74761,121912],"uir_type":"city","uir_id":582786,"uir_name":"Brno"}
+336970344;2014-10-01 06:00:50.0;{"what":"ubytování","where":"Brno, okres Brno-město","from":"0","size":"3","source_facility":"op"}
+336970442;2014-10-01 06:01:39.0;{"what":"nykodýmová","where":"Plzeň, okres Plzeň-město","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554791,"uir_name":"Plzeň"}
+336970392;2014-10-01 06:01:39.0;{"what":"nykodýmová","where":"Plzeň, okres Plzeň-město","from":"0","size":"3","source_facility":"op"}
+336970587;2014-10-01 06:01:45.0;{"what":"pošta","where":"Adamov, okres Blansko","from":"0","size":"3","source_facility":"op"}
+336970353;2014-10-01 06:01:45.0;{"what":"pošta","where":"Adamov, okres Blansko","from":"0","size":"3","source_facility":"op","record_ids":[59661],"uir_type":"city","uir_id":581291,"uir_name":"Adamov"}
+336970839;2014-10-01 06:02:34.0;{"what":"nykodým*","where":"Plzeň, okres Plzeň-město","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554791,"uir_name":"Plzeň"}
+336970542;2014-10-01 06:02:34.0;{"what":"nykodým*","where":"Plzeň, okres Plzeň-město","from":"0","size":"3","source_facility":"op"}
+336970600;2014-10-01 06:02:39.0;{"what":"nykodým*","where":"Plzeň - Plzeň 2-Slovany","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"urban_district","uir_id":545988,"uir_name":"Plzeň 2-Slovany"}
+336970394;2014-10-01 06:02:39.0;{"what":"nykodým*","where":"Plzeň - Plzeň 2-Slovany","from":"0","size":"3","source_facility":"op"}
+336970840;2014-10-01 06:02:44.0;{"what":"nykodýmová","where":"Plzeň - Plzeň 2-Slovany","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"urban_district","uir_id":545988,"uir_name":"Plzeň 2-Slovany"}
+336970543;2014-10-01 06:02:44.0;{"what":"nykodýmová","where":"Plzeň - Plzeň 2-Slovany","from":"0","size":"3","source_facility":"op"}
+336970592;2014-10-01 06:03:36.0;{"what":"ubytování","where":"Brno, okres Brno-město","from":"0","size":"3","source_facility":"op"}
+336970447;2014-10-01 06:03:36.0;{"what":"ubytování","where":"Brno, okres Brno-město","from":"0","size":"3","source_facility":"op","record_ids":[69818,74761,121912],"uir_type":"city","uir_id":582786,"uir_name":"Brno"}
+336970742;2014-10-01 06:04:30.0;{"what":"ubytování","where":"Brno, okres Brno-město","from":"3","size":"5","source_facility":"op","record_ids":[84436,762829,84110,83383,641885],"uir_type":"city","uir_id":582786,"uir_name":"Brno"}
+336970438;2014-10-01 06:04:52.0;{"what":"ubytování","where":"Brno, okres Brno-město","from":"8","size":"15","source_facility":"op","record_ids":[61971,59596,59982,85065,535055,61277,89809,187536,82544,64875,81220,64379,84350,49360,83486],"uir_type":"city","uir_id":582786,"uir_name":"Brno"}
+336970611;2014-10-01 06:06:29.0;{"what":"pivovar zubr","where":"","from":"0","size":"3","source_facility":"op"}
+336970593;2014-10-01 06:06:29.0;{"what":"pivovar zubr","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336970862;2014-10-01 06:11:07.0;{"what":"stavokov","where":"Kostelní, Starý Kolín - Starý Kolín","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"street","uir_id":232840,"uir_name":"Kostelní"}
+336970697;2014-10-01 06:11:07.0;{"what":"stavokov","where":"Kostelní, Starý Kolín - Starý Kolín","from":"0","size":"3","source_facility":"op"}
+336970780;2014-10-01 06:11:12.0;{"what":"stavo kov","where":"Kostelní, Starý Kolín - Starý Kolín","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"street","uir_id":232840,"uir_name":"Kostelní"}
+336970711;2014-10-01 06:11:12.0;{"what":"stavo kov","where":"Kostelní, Starý Kolín - Starý Kolín","from":"0","size":"3","source_facility":"op"}
+336970894;2014-10-01 06:11:17.0;{"what":"stavokov","where":"Kostelní, Starý Kolín - Starý Kolín","from":"0","size":"3","source_facility":"op"}
+336970714;2014-10-01 06:11:17.0;{"what":"stavokov","where":"Kostelní, Starý Kolín - Starý Kolín","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"street","uir_id":232840,"uir_name":"Kostelní"}
+336970833;2014-10-01 06:13:09.0;{"what":"colour expert","where":"pelhřimov","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":547492,"uir_name":"Pelhřimov"}
+336970961;2014-10-01 06:13:10.0;{"what":"colour expert","where":"pelhřimov","from":"0","size":"3","source_facility":"op"}
+336970968;2014-10-01 06:13:23.0;{"what":"železářství procházka","where":"Kostelní, Starý Kolín - Starý Kolín","from":"0","size":"3","source_facility":"op"}
+336970850;2014-10-01 06:13:23.0;{"what":"železářství procházka","where":"Kostelní, Starý Kolín - Starý Kolín","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"street","uir_id":232840,"uir_name":"Kostelní"}
+336970953;2014-10-01 06:13:31.0;{"what":"rádio impuls","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336970910;2014-10-01 06:13:31.0;{"what":"rádio impuls","where":"","from":"0","size":"3","source_facility":"op"}
+336970897;2014-10-01 06:13:33.0;{"what":"železářství procházka","where":"Starý Kolín, okres Kolín","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":533700,"uir_name":"Starý Kolín"}
+336970836;2014-10-01 06:13:33.0;{"what":"železářství procházka","where":"Starý Kolín, okres Kolín","from":"0","size":"3","source_facility":"op"}
+336971126;2014-10-01 06:14:45.0;{"what":"makro nd ","where":"Moravany, okres Pardubice","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":575399,"uir_name":"Moravany"}
+336970971;2014-10-01 06:14:45.0;{"what":"makro nd ","where":"Moravany, okres Pardubice","from":"0","size":"3","source_facility":"op"}
+336971101;2014-10-01 06:15:54.0;{"what":"makro nd ","where":"praha","from":"0","size":"3","source_facility":"op"}
+336971261;2014-10-01 06:15:55.0;{"what":"makro nd ","where":"praha","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554782,"uir_name":"Praha"}
+336971262;2014-10-01 06:16:05.0;{"what":"autoservis","where":"Bobrky, Vsetín - Vsetín","from":"0","size":"3","source_facility":"op"}
+336971247;2014-10-01 06:16:05.0;{"what":"autoservis","where":"Bobrky, Vsetín - Vsetín","from":"0","size":"3","source_facility":"op","record_ids":[59062,191801,687013],"uir_type":"street","uir_id":633615,"uir_name":"Bobrky"}
+336971149;2014-10-01 06:17:38.0;{"what":"česká pošta ","where":"Kroměříž, okres Kroměříž","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":588296,"uir_name":"Kroměříž"}
+336971265;2014-10-01 06:17:39.0;{"what":"česká pošta ","where":"Kroměříž, okres Kroměříž","from":"0","size":"3","source_facility":"op"}
+336971187;2014-10-01 06:17:53.0;{"what":"planeo elektro ","where":"Plzeň, okres Plzeň-město","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":554791,"uir_name":"Plzeň"}
+336971033;2014-10-01 06:17:53.0;{"what":"planeo elektro ","where":"Plzeň, okres Plzeň-město","from":"0","size":"3","source_facility":"op"}
+336971072;2014-10-01 06:17:55.0;{"what":"česká pošta ","where":"Spáčilova, Kroměříž - Kroměříž","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"street","uir_id":240222,"uir_name":"Spáčilova"}
+336971036;2014-10-01 06:17:55.0;{"what":"česká pošta ","where":"Spáčilova, Kroměříž - Kroměříž","from":"0","size":"3","source_facility":"op"}
+336971429;2014-10-01 06:20:39.0;{"what":"fikeys","where":"","from":"0","size":"3","source_facility":"op","record_ids":[]}
+336971225;2014-10-01 06:20:39.0;{"what":"fikeys","where":"","from":"0","size":"3","source_facility":"op"}
+336971188;2014-10-01 06:20:48.0;{"what":"otevírání aut","where":"Pardubice, okres Pardubice","from":"0","size":"3","source_facility":"op","record_ids":[61445,85517,85872],"uir_type":"city","uir_id":555134,"uir_name":"Pardubice"}
+336971150;2014-10-01 06:20:48.0;{"what":"otevírání aut","where":"Pardubice, okres Pardubice","from":"0","size":"3","source_facility":"op"}
+336971342;2014-10-01 06:21:22.0;{"what":"nemocnice zubní  chirurgie","where":"Zlín, okres Zlín","from":"0","size":"3","source_facility":"op"}
+336971195;2014-10-01 06:21:22.0;{"what":"nemocnice zubní  chirurgie","where":"Zlín, okres Zlín","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":585068,"uir_name":"Zlín"}
+336971488;2014-10-01 06:24:19.0;{"what":"gastro plus","where":"Louny, okres Louny","from":"0","size":"3","source_facility":"op"}
+336971500;2014-10-01 06:24:20.0;{"what":"gastro plus","where":"Louny, okres Louny","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":565971,"uir_name":"Louny"}
+336971355;2014-10-01 06:24:24.0;{"what":"gastroplus","where":"Louny, okres Louny","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":565971,"uir_name":"Louny"}
+336971320;2014-10-01 06:24:24.0;{"what":"gastroplus","where":"Louny, okres Louny","from":"0","size":"3","source_facility":"op"}
+336971509;2014-10-01 06:27:02.0;{"what":"strojírna novotný","where":"Dubicko, okres Šumperk","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":534927,"uir_name":"Dubicko"}
+336971373;2014-10-01 06:27:02.0;{"what":"strojírna novotný","where":"Dubicko, okres Šumperk","from":"0","size":"3","source_facility":"op"}
+336971393;2014-10-01 06:27:07.0;{"what":"psychiatrie malá","where":"Rokycany, okres Rokycany","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":559717,"uir_name":"Rokycany"}
+336971374;2014-10-01 06:27:07.0;{"what":"psychiatrie malá","where":"Rokycany, okres Rokycany","from":"0","size":"3","source_facility":"op"}
+336971489;2014-10-01 06:27:09.0;{"what":"psychiatrie malá","where":"Rokycany, okres Rokycany","from":"0","size":"3","source_facility":"op"}
+336971337;2014-10-01 06:27:09.0;{"what":"psychiatrie malá","where":"Rokycany, okres Rokycany","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":559717,"uir_name":"Rokycany"}
+336971444;2014-10-01 06:28:30.0;{"what":"nemocnice ","where":"Dačice, okres Jindřichův Hradec","from":"0","size":"3","source_facility":"op"}
+336971417;2014-10-01 06:28:30.0;{"what":"nemocnice ","where":"Dačice, okres Jindřichův Hradec","from":"0","size":"3","source_facility":"op","record_ids":[226892],"uir_type":"city","uir_id":546127,"uir_name":"Dačice"}
+336971468;2014-10-01 06:29:11.0;{"what":"plicní léčebna","where":"Humpolec, okres Pelhřimov","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":547999,"uir_name":"Humpolec"}
+336971447;2014-10-01 06:29:11.0;{"what":"plicní léčebna","where":"Humpolec, okres Pelhřimov","from":"0","size":"3","source_facility":"op"}
+336971780;2014-10-01 06:30:41.0;{"what":"učiliště","where":"Třemošnice, okres Chrudim","from":"0","size":"3","source_facility":"op"}
+336971551;2014-10-01 06:30:41.0;{"what":"učiliště","where":"Třemošnice, okres Chrudim","from":"0","size":"3","source_facility":"op","record_ids":[],"uir_type":"city","uir_id":572411,"uir_name":"Třemošnice"}
